@@ -10,7 +10,7 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text">Ke</span>
 					</div>
-					<input type="tel" class="form-control" bind:value={hariUjian} placeholder="1" name="">
+					<input type="tel" class="form-control" bind:value={hariUjian} name="">
 				</div>
 			</div>
 		</div>
@@ -18,7 +18,7 @@
 			<div class="form-group">
 				<label>Juz yang Diujikan <br><small>(Isi antara 1 sampai 30)</small></label>
 				<div class="input-group">
-					<input type="tel" class="form-control" bind:value={juz} placeholder="5" name="">
+					<input type="tel" class="form-control" bind:value={juz} name="">
 					<div class="input-group-append">
 						<span class="input-group-text">Juz</span>
 					</div>
